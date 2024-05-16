@@ -7,6 +7,12 @@ editor: visual
 ```{r}
 #| echo: false
 2 * 2
+#install.packages("githubinstall")
+#install.packages("usethis") 
+#usethis::create_github_token() 
+#gitcreds::gitcreds_set()
+usethis::git_sitrep()
+
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
